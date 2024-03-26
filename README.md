@@ -68,7 +68,8 @@ endmodule
 ![Screenshot 2024-03-19 142423](https://github.com/H515piyush/FULL_ADDER_SUBTRACTOR/assets/147472999/ab915517-5178-4cc9-91b4-d6289ebb7d8d)
 
 **Output Timing Waveform**
-![Screenshot 2024-03-19 143139](https://github.com/H515piyush/FULL_ADDER_SUBTRACTOR/assets/147472999/c9a52299-bd9d-41ec-a858-7c6c4c8c16f6)
+![Screenshot 2024-03-26 140256](https://github.com/H515piyush/FULL_ADDER_SUBTRACTOR/assets/147472999/37912837-c66f-4b4e-9e1c-95e2fc23bb80)
+
 
 **Result:**
 
