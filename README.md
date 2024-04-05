@@ -103,9 +103,10 @@ endmodule
 
 **Output Timing Waveform**
 FULL ADDER
-![318405216-5d286c1d-e62e-454a-a389-00ba2c2a91fc](https://github.com/H515piyush/FULL_ADDER_SUBTRACTOR/assets/147472999/6ab6d91f-747b-4fa8-8090-c8f7d873e15b)
 
-FULL SUBTRACTOR
+
+FU![WhatsApp Image 2024-04-05 at 11 43 16_f941adc7](https://github.com/H515piyush/FULL_ADDER_SUBTRACTOR/assets/147472999/9a365a36-d985-43a9-8079-4faa42373cda)
+LL SUBTRACTOR
 
 ![full sub waveform](https://github.com/H515piyush/FULL_ADDER_SUBTRACTOR/assets/147472999/8bb71c44-59e2-4c7d-82ea-7a7e6c4f1601)
 
