@@ -68,7 +68,7 @@ RegisterNumber:212223220075
 ```
 
 ## Full_adder
-module fulladd_top(a,b,cin,sum,carry);
+module ex5(a,b,cin,sum,carry);
 input a,b,cin;
 output sum,carry;
 wire w1,w2,w3,w4;       
@@ -83,11 +83,15 @@ or(carry,w2,w3,w4);
 endmodule 
 
 ## Full_subtractor
-module fullsub_top(a,b,Bin,BO,DIFF);
-input a,b,Bin;
-output BO,DIFF;
-assign DIFF = a ^ b ^ Bin;
-  assign BO = (a & b) | ((a ^ b) & Bin);
+module ex5(df,bo,a,b,bin);
+output df,bo;
+input a,b,bin;
+wire w1,w2,w3;
+assign w1=a^b;
+assign w2=(~a&b);
+assign w3=(~w1&bin);
+assign df=w1^bin;
+assign bo=w2|w3;
 endmodule
 
 ```
@@ -95,6 +99,7 @@ endmodule
 **RTL Schematic**
 ![318405073-2e45d893-4f83-4a98-8bc2-d0d30b70e7e2](https://github.com/H515piyush/FULL_ADDER_SUBTRACTOR/assets/147472999/8e962897-cc6b-4cf5-83bb-b022ab4f2950)
 
+![full sub rtl](https://github.com/H515piyush/FULL_ADDER_SUBTRACTOR/assets/147472999/28461f45-19a2-46dd-984e-17424abe2905)
 
 **Output Timing Waveform**
 FULL ADDER
@@ -102,7 +107,7 @@ FULL ADDER
 
 FULL SUBTRACTOR
 
-![318405344-03d5d030-815e-4847-a976-2fd282cf0333](https://github.com/H515piyush/FULL_ADDER_SUBTRACTOR/assets/147472999/01f559ef-0fb7-4463-95e1-547283099f03)
+![full sub waveform](https://github.com/H515piyush/FULL_ADDER_SUBTRACTOR/assets/147472999/8bb71c44-59e2-4c7d-82ea-7a7e6c4f1601)
 
 
 
